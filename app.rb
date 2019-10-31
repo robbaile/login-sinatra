@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require "json"
 require './lib/order.rb'
 
 class Login < Sinatra::Base
