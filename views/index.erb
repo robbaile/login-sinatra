@@ -1,0 +1,65 @@
+<body>
+    <h1 class="page-heading">welcome to robs hungry house</h1>
+    <h2 class="page-subheading">Please login or sign up below</h2>
+
+    <div class="login-container">
+        <form action="/login" method="POST">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <button>Log in</button>
+        </form>
+    </div>
+</body>
+
+<style>
+    body {
+        background-color: #EEF5DB;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4F6367;
+    }
+
+    .page-heading, .page-subheading {
+        text-align: center;
+    }
+
+    input {
+        display: block;
+        border: none;
+        border-bottom: #545454 2px solid;
+        margin: 15px 0;
+        width: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px; 
+        color: #4F6367;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    button {
+        border: #545454 2px solid;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: #4F6367;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: #EEE;
+        cursor: pointer;
+    }
+
+    .login-container {
+        background-color: #FFF;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 30px;
+    }
+
+
+</style>
